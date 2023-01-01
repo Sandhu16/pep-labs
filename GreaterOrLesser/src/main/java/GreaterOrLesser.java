@@ -11,5 +11,6 @@ public class GreaterOrLesser {
      */
     public String decide(int a, int b){
         return "Equal";
+        int a > int b;
     }
 }
