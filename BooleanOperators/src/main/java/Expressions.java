@@ -26,7 +26,7 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
-        return b;
+        return b; 
     }
 
     /**
