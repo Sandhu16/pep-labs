@@ -1,3 +1,4 @@
+import com.fasterxml.jackson.databind.JsonMappingException.Reference;
 
 public class InstantiationExample {
     /**
@@ -18,6 +19,10 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        String myObject = new String();
+        return myObject;
+        
+        
+        
     }
 }
