@@ -16,11 +16,12 @@
 public class Player {
      public String playerName;
             public int level;
-public void player1ArgConstructorTest1(){
 
 
-}
-    /**
+
+
+    
+     /**
      * this.playerName should be set to playerName.
      *
      * Constructor should assign the object's playerName using this.playerName to refer to the playerName at the top of
@@ -34,6 +35,8 @@ public void player1ArgConstructorTest1(){
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
+        this.playerName=(playerName);
+        this.level=1 ;
       
     
     
