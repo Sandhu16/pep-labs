@@ -16,7 +16,10 @@
 public class Player {
      public String playerName;
             public int level;
+public void player1ArgConstructorTest1(){
 
+
+}
     /**
      * this.playerName should be set to playerName.
      *
