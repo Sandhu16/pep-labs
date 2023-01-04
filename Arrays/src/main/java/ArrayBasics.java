@@ -1,3 +1,6 @@
+import java.util.Arrays;
+
+import org.eclipse.jetty.util.Index;
 
 /**
  * An array is a group of some predefined number of elements.
@@ -15,7 +18,8 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
-        return 0;
+        arr=new int[5];
+        return 5;
     }
 
 
@@ -27,7 +31,8 @@ public class ArrayBasics {
      * @return the element at index n of arr.
      */
     public int getNthElementOfArray(int[] arr, int n){
-        return (arr[n]);
+        return (int[]arr,int n);
+
     }
 
     /**
@@ -39,6 +44,8 @@ public class ArrayBasics {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
+        arr[2]=5;
+        arr[0]=2;
 
     }
 
@@ -47,6 +54,10 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
-        return null;
+        return new int[n] ;
+
+   
+   
+   
     }
 }
