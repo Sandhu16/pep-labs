@@ -40,6 +40,8 @@ public class ForLoop {
      *      @return the sum of all numbers between start and end, with start inclusive and end exclusive.
      */
     public String returnNumbers(int start, int end){
+         int i=1;
+         int end i<6;
         String buildingString = "";
 
 //        code here
