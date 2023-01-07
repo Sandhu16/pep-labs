@@ -1,3 +1,4 @@
+import java.lang.FdLibm.Pow;
 
 public class MathClass {
     /**
@@ -20,6 +21,7 @@ public class MathClass {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        return 0;
+    return 0;
+        
     }
 }
