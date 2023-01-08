@@ -227,6 +227,8 @@
       returnStringTest2: 0
       returnStringTest3: 0
       ForLoopTest: 0
+      mathClassTest1: 0
+      mathClassTest2: 0
   Math:
     :Week: 2
     :Order: 7
